@@ -1,0 +1,32 @@
+.group {
+  padding: 1rem 2rem;
+  margin: .5rem;
+  border-radius: 5px;
+  border:2px solid #eee;
+  width: 400px;
+}
+
+.group-header{
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.group-content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.group-content label{
+  display: flex;
+  gap: 10px;
+}
+
+.selector select{
+  width: 300px;
+  padding: .5rem;
+}
